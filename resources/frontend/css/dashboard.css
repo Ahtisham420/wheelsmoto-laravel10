@@ -1,0 +1,1935 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+    font-family: "Gilroy", sans-serif;
+    background-color: #fff;
+    /*background-color: #f0f2f4;*/
+}
+select{
+   font-size: 16px;
+   line-height: 16px;
+   background: url({{ config('app.ui_asset_url').'frontend/img/arrow.svg' }}) no-repeat 100% 50%;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+@-moz-document url-prefix() {
+  select{
+    border: 1px solid #00c29f!important;
+  }
+
+}
+.sell-form span.select2.select2-container.select2-container--default{
+    width: 100% !important;
+}
+.popupModal{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.modalfeatureheading{
+  color: #707070;
+  paddign-bottom:20px;
+}
+.featurebtnmodal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.featurebtnmodal button{
+  border-radius: 0;
+}
+.featurebtnmodal button:first-child{
+  background-color: #00c29f;
+  margin-right: 10px
+}
+.badge-info {
+    color: #fff;
+    background-color: #00c29f;
+}
+
+/* textareacount */
+.textareacount{
+  position: relative;
+}
+.textareacount textarea{
+  resize: none;
+}
+.textareacount #chars{
+    float: right;
+  font-size: 12px;
+  color: #BEBEBE;
+}
+.tile-dash{
+    border: 1px solid #bfbfbf!important;
+    border-radius: 5px!important;
+}
+.tile-dash img{
+     padding: 5px;
+     object-fit: contain!important;
+}
+.Attachmentbtn button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+    display:flex;
+  align-items: center;
+justify-content: center;
+width: 100%;
+  max-width: 180px;
+  background: #707070;
+  color: #fff;
+  border: none;
+  border-radius: none
+}
+.Attachmentbtn button i{
+  padding-right: 8px
+}
+.Attachmentbtn:focus{
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+.download-btn{
+  padding-top: 10px;
+  padding-bottom: 10px;
+    display:flex;
+  align-items: center;
+justify-content: center;
+width: 100%;
+  max-width: 220px;
+  background: #707070;
+  color: #fff;
+  border: none;
+  border-radius: none;
+  margin-bottom: 15px
+}
+.download-btn i{
+  padding-right: 8px
+}
+
+
+
+/*  Top Bar .topbar {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar ul {
+    padding: 5px;
+    margin: 0;
+}
+
+.topbar ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.topbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+.topbar ul li a:hover {
+    color: #000;
+    text-decoration: none;
+    padding: 15px 15px;
+} */
+/*pageheader */
+/*Profile Detail*/
+.profilesection {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.badge1 {
+    position: absolute;
+    top: 0;
+    right: 3%;
+}
+
+.badge1:empty {
+    display: block;
+}
+
+.profileimage {
+    max-width: 12.667%;
+}
+
+.profileimage img {
+    border-radius: 50%;
+    height: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.profiledescription h3 {
+    font-size: 27px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.profiledescription p {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.profiledescription a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.myhr hr {
+    margin-bottom: 0;
+}
+
+.navsection ul {
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.navsection ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+}
+.mobil-menu-portal{
+  display: none;
+}
+
+.navsection ul li a:active {
+    border-bottom: 3px solid #00c29f;
+}
+
+.navsection ul li a:active::after {
+    position: absolute;
+    content: '';
+    left: 38%;
+    bottom: -7px;
+    border-top: 9px solid #00c29f;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.navsection ul li a:focus {
+    border-bottom: 3px solid #00c29f;
+}
+
+.navsection ul li a:focus::after {
+    position: absolute;
+    content: '';
+    left: 38%;
+    bottom: -7px;
+    border-top: 9px solid #00c29f;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.navheading {
+    border-right: 1px solid #e1d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navheading a {
+    padding: 10px 50px !important;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+/*Tab Section*/
+/*Classified Car Tab*/
+.tabshowing {
+    background-color: #fff;
+    position: relative;
+}
+
+.tabmenu {
+    background-color: transparent;
+    max-width: 24%;
+}
+/*image previwe*/
+
+/*image cropper slider*/
+.cabinet{
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.cabinet input.file{
+    position: relative;
+    height: 100%;
+    width: auto;
+    opacity: 0;
+    -moz-opacity: 0;
+    /*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);*/
+    margin-top:-30px;
+}
+.sellcar select{
+    height: calc(3.25rem + 2px) !important;
+}
+.sellcar select option:focus{
+    background: #00c29f;
+}
+.sellcar select:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #00c29f;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #00c29f4d;
+}
+.sellcar input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #00c29f;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #00c29f4d;
+}
+.sellcar textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #00c29f;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #00c29f4d;
+}
+.sellcar input{
+    height: calc(3.25rem + 2px) !important;
+}
+.cabinet input{
+    width:100%!important;
+}
+
+#upload-demo{
+    width: 100%;
+    height: 300px;
+    padding-bottom:25px;
+}
+figure img{
+    object-fit: contain;
+    width: 100%;
+    max-height:  200px;
+    min-height:  200px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+figure img:hover{
+    transform: scale(1.08);
+}
+figure figcaption {
+    position: absolute;
+    bottom: 46px;
+    color: #fff;
+    width: 100%;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 10px #000;
+}
+
+
+/*Tab Pills Css*/
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #00c29f;
+}
+.nav-pills .nav-link.active:hover,
+.nav-pills .show>.nav-link {
+    color: white !important;
+}
+a:hover{
+    color: #00c29f !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.tablink {
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #707070;
+}
+
+/*Tab Li*/
+.tabli {
+    margin-top: 20px;
+}
+
+.tabli ul {
+    padding: 0;
+}
+
+.tabli ul li {
+    display: inline;
+}
+
+.tabli ul li button {
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: SourceSansPro;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+/* .tabli ul li a:active {
+    font-weight: 600;
+    color: #00c29f;
+} */
+.tabli ul>li>button {
+    border: none;
+    border-right: 1px solid #707070!important;
+
+}
+.tabli ul>li>button:focus{
+    background: transparent;
+    color:#707070 ;
+}
+.tabli ul>li:last-child>a {
+    border: 0;
+}
+
+/*radio*/
+.purchasediv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 16px;
+    color: #00c29f;
+}
+
+.switch {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 29px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider-wheel {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider-wheel:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider-wheel {
+    background-color: #00c29f;
+}
+
+input:focus+.slider-wheel {
+    box-shadow: 0 0 1px #00c29f;
+}
+
+input:checked+.slider-wheel:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider-wheel.round {
+    border-radius: 34px;
+}
+
+.slider-wheel.round:before {
+    border-radius: 50%;
+}
+.pagination .active .page-link{
+    background: #00c29f;
+    border-color: #00c29f;
+}
+.pagination .page-link{
+    color: #00c29f;
+}
+.page-link:focus{
+    box-shadow: none;
+}
+.purchase1 {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+/*Cars Sections*/
+.carssection {
+    margin-top: 20px;
+}
+
+.carname {
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+
+.editordelete {
+    display: inline-flex;
+}
+
+.divider {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c29f;
+}
+
+.edit a {
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c29f;
+}
+
+.delete a {
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c29f;
+}
+
+.cardetail .card-body {
+    padding: 10px;
+}
+
+.cardetail .card {
+    border: none;
+}
+
+.cardetail .card-img-top {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0 !important;
+}
+
+.nextbtngrpdiv {
+    padding: 20px 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.featureCarsliderbtn div {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: solid 1px #70707077;
+    color: #000;
+    justify-content: center;
+    align-items: center
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+/*Package Tab*/
+.PackageDetail {
+    font-size: 18px;
+    color: #707070;
+    position: relative;
+    z-index: 50px;
+}
+
+.PackageDetailHeading {
+    font-weight: bold;
+    padding-right: 10px;
+    left: 0;
+    background: #fff;
+    z-index: 10;
+    font-size: 18px;
+    color: #707070;
+    position: absolute;
+}
+
+.style {
+    width: 85%;
+    max-width: 859px;
+    height: 200px;
+    border: 1px solid #f0f2f4;
+    position: absolute;
+    top: 13px;
+    left: 0%;
+}
+
+/*Sell Your Car Tab*/
+.sellcar {
+    margin-top: 40px;
+}
+
+.registrationnumber label {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #707070;
+}
+
+.swapinput div {
+    border: none;
+}
+
+.gbswap {
+    border-radius: 0;
+    display: grid;
+    background-color: #fbe400;
+    color: #fff;
+    border: none;
+}
+.textareacount #chars_input {
+
+    float: right;
+    font-size: 12px;
+    color: #BEBEBE;
+}
+.btn-update {
+    margin-top: 13px;
+    height: 53px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #00c29f;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mileage label {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #707070;
+}
+
+.mileage input {
+    height: 53px;
+    border-radius: 0;
+}
+
+.updatebtndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matterdiv {
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.matterdiv span {
+    color: #00c29f;
+}
+
+.formdiv {
+    margin-top: 20px;
+}
+
+.engintype .form-control {
+    color: #00c29f;
+}
+
+.labelalign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.labelalign span {
+    color: #00c29f;
+}
+
+.labelalign label {
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: #707070;
+}
+
+.infoinput p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.addorremove p {
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: #00c29f;
+}
+
+.addorremove p img {
+    padding: 0 5px;
+}
+
+.btn-back i {
+    padding-right: 15px;
+}
+
+.btn-back {
+    background: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.btn-back:focus {
+    box-shadow: none;
+}
+
+.btn-next {
+    margin-left: auto;
+    color: #fff!important;
+    width: auto;
+    height: 39.8px;
+    background-color: #00c29f;
+
+}
+
+.nextbtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*Package Details*/
+.packagedivdetail {
+    margin-top: 66px;
+}
+
+.basic .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.basic .card-body {
+    padding: 0;
+}
+
+.basic hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.basic .heading {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.basic .headingred {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00c29f;
+}
+
+.basic .description {
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4d4f5c;
+}
+
+.basic .moneyDetail {
+    padding: 20px 0;
+    font-size: 47px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.basic .moneyDetailred {
+    padding: 20px 0;
+    font-size: 47px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00c29f;
+}
+
+.basic .moneyDetail span {
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c29f;
+    display: inline-block;
+}
+
+.basic .moneyDetailred span {
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c29f;
+    display: inline-block;
+}
+
+.basic .pckgshow {
+    padding: 10px 0;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.7;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.basic .card-body {
+    background-color: #f8f8f8;
+}
+
+.basic .price {
+    padding: 10px 0;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.7;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.takethisbutton button {
+    width: 100%;
+    background-color: #707070;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.takethisbuttonred button {
+    width: 100%;
+    background-color: #00c29f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.tabrental {
+    margin: 30px 0;
+    padding: 10px 0;
+    background: url(../img/advertisementdiv/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tabrental p {
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+
+.tabrental h1 {
+    padding: 10px 0 20px 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+
+.tabrentaldiv {
+    margin: 0;
+}
+
+.takethisrental {
+    display: flex;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.takethisrental button {
+    padding: 10px 30px;
+    background-color: #00c29f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0;
+}
+/* Messenger styling */
+
+
+    .online {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: -10px;
+        top: 10px;
+        background: green;
+        border-radius: 20px;
+        border: 1px solid #fff;
+    }
+
+    .s1t p {
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #9C9C9C;
+        font-weight: 300;
+
+    }
+
+    #backarrow {
+        display: none;
+    }
+
+    .othermessage {
+        flex: 0 0 90%;
+        max-width: 90%;
+
+    }
+
+    .othermessage p {
+        font-size: 14px;
+        margin: 0;
+        padding: 20px 10px;
+        border-radius: 10px;
+        background-color: #e8ffe8;
+        color: black;
+        font-weight: 300;
+        word-break: break-word;
+    }
+
+    .otherchatimgdiv {
+        display: flex;
+        align-items: flex-end;
+        max-width: 10%;
+    }
+
+    .messengerscreen {
+        background-color: #000;
+    }
+
+    .messenger {
+        background-color: #fff;
+
+
+    }
+
+    .leftsidebar {
+        border-right: 1px solid #f0f0f0;
+        position: relative;
+
+    }
+
+    .allconversationsbtn {
+        background: transparent;
+        padding: 5px 10px;
+    }
+
+    .allconversationsbtn:hover {
+        background: transparent;
+    }
+
+    .allconversationsbtn:focus {
+        background: transparent;
+        box-shadow: none;
+        outline: none;
+
+    }
+
+    .serchbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .serchbtn button {
+        background: transparent;
+        border: none;
+
+    }
+
+    .allconeversationdiv {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        word-wrap: break-word;
+
+    }
+
+    .allconeversationdiv button {
+        font-size: 18px;
+
+
+    }
+
+    .pimg1 img {
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .pimgother img {
+        border-radius: 50px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .messagetime {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .messagetime p {
+
+        font-size: 13px !important;
+        font-weight: 100;
+        margin: 0 !important;
+        color: #000;
+        word-wrap: break-word;
+    }
+
+    .messagetime span {
+        font-size: 18px;
+        font-weight: 100;
+        margin: 0 !important;
+        color: #a2a2a2;
+        padding: 0 10px;
+    }
+
+    .mymessage {
+
+        display: block;
+    }
+
+    .mymessage p {
+        font-family: 'Gilroy-Light ☞';
+        font-size: 18px;
+        font-weight: 300;
+        color: #a2a2a2;
+        word-wrap: break-word;
+
+    }
+
+    .mymessage h3 {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 0 !important;
+        color: #000;
+        cursor: pointer;
+
+    }
+
+    .messagarea {
+        vertical-align: bottom;
+        margin-top: 20px;
+    }
+
+    .user-message-list {
+        overflow-y: auto;
+        max-height: 70vh;
+        ;
+    }
+
+    .createofferbtn {
+        border: 1px solid #00c29f;
+        color: #00c29f;
+        font-weight: 300;
+        background: transparent;
+    }
+
+    .sendbtndiv {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .emojionearea .emojionearea-editor {
+        min-height: 3em;
+    }
+
+    #chat .input-group-text {
+        background: transparent;
+        border: 0 0 1px 0 solid;
+        border-radius: 0;
+    }
+
+    #chat input {
+        border-radius: 0;
+        border-right: 1px solid transparent;
+    }
+
+    #chat .input-group-text {
+        border-left-color: transparent;
+    }
+
+    .primary-menu ul li a {
+        border-right: 0;
+    }
+    .swap-my-car{
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 20px;
+    }
+
+
+/*Advertisement Detail*/
+.garage-advertisement {
+    margin-top: 40px;
+}
+
+.advertisementHeading img {
+    padding: 0 15px;
+}
+
+.advertisementHeading {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+
+.text-area textarea {
+    resize: none;
+}
+
+.audimodel input {
+    color: #00c29f;
+}
+.audimodel p img {
+    width: 110px;
+    height: auto;
+    border: none !important;
+}
+.button-group {
+    margin-top: 10px;
+}
+.button-group button {
+    border-radius: 50px;
+    border: none;
+    background-color: #00c29f;
+    color: #fff;
+    padding: 4px 8px;
+}
+.addphoto {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    color: #00c29f !important;
+}
+.audimodel p {
+    margin: 0;
+}
+.previewbtn {
+    margin-left: 5px;
+}
+
+.previewbtn .input-group-text {
+    background-color: #707070;
+}
+
+/*Sell Your Car next Section*/
+.sellurcarnextsection {
+    margin-top: 20px;
+}
+
+/*Custom CheckBox*/
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-image: url("../img/checkmark.png");
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 0;
+    opacity: 1!important;
+    border-radius: 2px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #ffffff;
+    border: 1px solid grey;
+}
+
+.checkboxdiv {
+    display: flex;
+    margin-left: 20px;
+}
+
+.checkboxdiv div {
+    padding: 0 24px;
+}
+
+.imageborder {
+    padding: 30px;
+    border: dashed 0.5px #ced4da;
+}
+
+.imageborder img {
+    border: none;
+}
+
+/*Car selling Next Section*/
+.cardescription {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+
+.editDescription a {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: right;
+    color: #00c29f;
+}
+
+.colorinput input {
+    color: #00c29f;
+}
+
+.colorinputType {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00c29f;
+}
+
+.pricedescription {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #707070;
+}
+
+.pricedescription span {
+    color: #00c29f;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.priceaddbtn .input-group-text {
+    background-color: #fbe400;
+    border: transparent;
+}
+
+.priceaddbtn input {
+    border: solid 1px #dee2e6;
+    padding-left: 10px;
+}
+
+.priceaddbtn button {
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #dee2e6;
+    color: #fff;
+}
+
+.bestprice {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #707070;
+}
+
+.addedvalue {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+
+.addedvalue a {
+    color: #00c29f;
+}
+
+
+/*Modal*/
+.modalbadge {
+    background-color: #fff;
+    position: relative;
+}
+
+.badgeModal {
+    position: absolute;
+    top: 0;
+    right: 9px;
+}
+
+.marginmodal {
+    margin-top: 40px;
+}
+
+.modalHeading img {
+    padding-right: 15px;
+}
+
+.modalHeading {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+
+.addmorefeature {
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.searchmodaldiv {
+    margin-top: 20px;
+}
+
+.modalFeatureSearch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.modalFeatureSearch .input-group {
+    width: auto;
+}
+
+.modalsearchbtn .input-group-text {
+    border-right: transparent;
+    background: transparent;
+}
+
+.modalsearchbtn input {
+    border: solid 0.3px #dad5d5;
+}
+
+.modalaccordian {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.modalaccordian1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.savebtnmodal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.savebtnmodal button {
+    width: 130px;
+    height: 40px;
+    background-color: #00c29f;
+    color: #fff;
+    font-weight: 600;
+}
+
+.checkboxCoulmn {
+    margin-bottom: 10px;
+}
+
+.checkboxCoulmn .custom-checkbox {
+    background: #f8f8f8;
+}
+
+.checkboxCoulmn label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.selected {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: right;
+    color: #707070;
+}
+
+.accordion .card-header p {
+    margin-bottom: 0;
+    float: right;
+    margin-right: 20px;
+    color: #707070;
+}
+.btn-show-more-filter-search{
+    padding: 5px 12px;
+    width: 100%;
+    background-color: TRANSPARENT;
+    color: #707070;
+    border: 1px solid #707070;
+}
+
+/*Prifile Section*/
+.stepsnav .nav-tabs {
+    border: none;
+}
+
+.stepsnav .nav-tabs .nav-link.active {
+    border: 1px solid transparent;
+    border-bottom: 2px solid #00c29f !important;
+    color: #707070;
+}
+
+.stepsnav .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.profilesteps {
+    border: none;
+    color: #43425d50;
+}
+
+.Map {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #DEE2E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    color: #A1A0AE;
+}
+
+.chooseFile {
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 9px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    color: #fff;
+    background-color: #00c29f !important;
+}
+
+/*footer*/
+footer {
+    background-color: #000;
+    display: flex;
+    margin-top: 40px;
+}
+
+.absolutefooter {
+    background-color: #000;
+    padding: 13px 0;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.31px;
+    text-align: left;
+    color: #f8f8f8;
+}
+
+/*Accordian*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+.card-header {
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+    background-color: transparent;
+    border: none;
+}
+
+.card-header a {
+    padding-left: 10px;
+}
+
+.card-header img {
+    padding-right: 20px;
+    border-right: 1px solid #70707077;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.accordion .card-header:after {
+    content: url('../img/carseelingtabs/up.png');
+    color: #00c29f;
+    float: right;
+    position: absolute;
+    right: 11px;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: url('../img/carseelingtabs/Component\ 26\ –\ 71.png');
+    color: #00c29f;
+}
+
+@media (max-width:992px) {
+    .profileimage {
+        max-width: 100%;
+    }
+
+    .tabmenu {
+        max-width: 23%;
+    }
+    .profileimage img {
+        max-width:100px;
+        max-hight:100px;
+    }
+    
+    .profiledescription {
+        
+        padding-left: 130px;
+    }
+
+
+}
+
+@media (max-width:526px) {
+    .navheading a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    .tabmenu {
+        max-width: 100%;
+    }
+
+    .mobile-tab-showing {
+        margin-left: 0 !important;
+    }
+
+    .labelalign {
+        justify-content: flex-start;
+    }
+
+    .labelalign label {
+        margin-bottom: 0;
+    }
+
+    .navheading {
+        width: 25% !important;
+    }
+
+    .navheading a {
+        padding: 10px 13px !important;
+    }
+    .nav-pills .nav-link {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .mobile-tab-showing {
+        margin-left: 0 !important;
+        padding-top: 20px;
+    }
+
+    /* .tablink{
+        width: 33.33%;
+    } */
+    .tabmenu {
+        max-width: 100%;
+    }
+
+    .line-btn-update {
+        margin-top: 30px;
+    }
+
+    .newformdiv {
+        margin-left: 0% !important;
+    }
+}
+
+@media (max-width:480px) {
+  #mobile-my-portal-menu{
+    display: none!important;
+  }
+  .mobil-menu-portal{
+    background-color:#bbbed775;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    color: #707070;
+  }
+  .mobil-menu-portal i{
+    padding-left: 10px;
+
+  }
+
+  .navsection ul{
+    flex-direction: column;
+  }
+  .navsection ul li{
+    width: 100%!important;
+  }
+
+  .newbtn-Update{
+    margin-left: 0!important;
+  }
+  .Map {
+    margin-left: 0!important;
+  }
+    .new-flex-row {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        flex-direction: row !important;
+    }
+
+    .new-tab-formobile .tablink {
+        width: 100%!important;
+        border-radius: 0 !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .carname {
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .editordelete .edit {
+        background-color: #00c29f;
+        color: #fff !important;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        border-radius: 14px;
+    }
+
+    .editordelete .edit a {
+        font-weight: 400;
+        color: #fff !important;
+    }
+
+    .editordelete .delete {
+        background-color: #00c29f;
+        color: #fff !important;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        border-radius: 14px;
+    }
+
+    .editordelete .delete a {
+        font-weight: 400;
+        color: #fff !important;
+    }
+
+    /* .switch {
+        display: none;
+    } */
+
+    .purchase {
+        padding-right: 10px;
+        /* border-right: 1px solid #707070; */
+    }
+
+    .purchase1 {
+        margin-left: 10px;
+    }
+
+    .tabli ul {
+        margin-top: 20px;
+    }
+
+    .tabli ul li a {
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: none;
+        color: #fff !important;
+    }
+
+    .tabli ul .activetab {
+        background-color: #00c29f !important;
+        color: #fff;
+    }
+
+    .tabli ul li {
+        background-color: #BBBED7;
+        margin-right: 2px;
+        height: 20px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .navbar-brand {
+        width: 100%
+    }
+    span#span-dashboard-result{
+        padding: 0 !important;
+    }
+
+    .navbar-brand img {
+        max-width: 100%;
+    }
+}
+/* Messenger Styling */
+
+
+@media(max-width:992px) {
+      .online {
+          top: 5px;
+      }
+
+      .newmessagetime .username {
+          font-size: 24px;
+      }
+
+      .messenger {
+          padding-top: 61px;
+      }
+
+      .newmymessage {
+          padding-left: 20px !important;
+      }
+
+      .pimgdiv {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-right: 0;
+          padding-left: 0;
+          max-width: 16.33%;
+
+      }
+
+      .pimgother {
+          max-width: 16.66%;
+      }
+
+      .pimgother p {
+          margin-bottom: 0 !important;
+      }
+
+      .otherchatimgdiv {
+          max-width: 14%;
+      }
+
+      .createofferbtn {
+          width: 100%;
+      }
+
+  }

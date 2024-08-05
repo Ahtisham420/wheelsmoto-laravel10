@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f8f8f8;
+}
+/*#00a651*/
+
+/*pageheader */
+.packagetile{
+
+}
+.mypackage-hr hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.moneyDetailmypackage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 47px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.26;
+    letter-spacing: normal;
+    color: #707070;
+}
+.mypackage-detail{
+    background-color: #f8f8f8;
+}
+.moneyDetailmypackage span{
+    margin-top: 20px;
+    width: 6%;
+    font-size: 9px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a651;
+    display: inline-block;
+}
+.mypackage-price{
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.7;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.packagetile hr {
+    margin-bottom: 0;
+}
+
+.currentpackage {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 24px;
+}
+
+.packagename {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #d8d9db;
+}
+
+.selectedpckg {
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+    font-weight: 600;
+}
+.mypackage-description{
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4d4f5c;
+}
+
+.formheading {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-size: 31px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.formheading span {
+    color: #00a651;
+}
+
+.register {
+    width: 100%;
+}
+
+.input-button .input-group-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-right: transparent;
+}
+
+.input-button input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-left: transparent;
+    border-radius: 0;
+}
+
+.signinbutton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #00a651;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.registernow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 22px;
+    border: solid 1px #707070;
+    width: 100%;
+    background-color: transparent;
+    color: #707070;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.orseparater {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.or {
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.facbookbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #4267b2;
+    font-size: 17px;
+    text-align: left;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.facbookbtn i {
+    padding: 0 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.googlebtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-size: 17px;
+    text-align: left;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #707070;
+}
+
+.googlebtn img {
+    padding: 0 10px;
+}
+
+.privacypolicy {
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+
+.privacypolicy span {
+    font-weight: bold;
+}
+
+.btn-back {
+    background: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.backpage {
+    padding-top: 100px;
+    text-align: center;
+}
+.new-feild-in-loginform{
+    margin-top: 128px;
+}
+.new-feild-in-loginform input{
+    background-color: rgb(232, 240, 254) !important;
+}
+.new-feild-in-loginform-heading{
+    font-size: 31px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+.new-form-heading{
+    margin-top: 60px!important;
+}
+.page-heading-privacy-policy{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 31px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+.page-heading-privacy-policy p{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+.page-heading-privacy-policy-detail{
+   font-size: 16px;
+   text-align: justify;
+   line-height: 2em;
+   color: #707070;
+}
+.contact-form-submit label{
+    color: #707070;
+}
+.emal-body{
+  background-color: #000;
+  height: 100vh;
+}
+.email-body-internal h6{
+  color: #fff;
+  font-size: 22px;
+
+}
+.email-body-internal span{
+  color: green;
+  font-size: 25px;
+}
+.email-body-internal img{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.email-body-internal p{
+  color: #fff;
+  font-size: 22px;
+}
+.tcCHeck{
+
+  color:#495057!important;
+  font-weight: 300!important;
+
+}
+
+/* }
+#contact-form
+.form-control {
+	border-color: #d7d7d7;
+	box-shadow: none;
+}
+#contact-form .form-control:focus, .btn:focus {
+	border-color: #a177ff;
+	box-shadow: 0 0 8px #c2a8ff;
+}
+#contact-form .contact-form {
+	width: 500px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+#contact-form .contact-form form {
+	background: #fff;
+	padding: 40px;
+	border-radius: 6px;
+}
+#contact-form .contact-form h1 {
+	text-align: center;
+	font-size: 50px;
+	margin: 0 0 15px;
+}
+#contact-form .contact-form .form-group {
+	margin-bottom: 20px;
+}
+#contact-form .contact-form .form-control, .contact-form .btn  {
+	border-radius: 2px;
+	min-height: 40px;
+	transition: all 0.5s;
+	outline: none;
+}
+#contact-form .contact-form .btn {
+	background: #a177ff;
+	font-size: 16px;
+	min-height: 50px;
+	border: none;
+}
+#contact-form .contact-form .btn:hover, .contact-form .btn:focus {
+	background: #8048ff;
+	outline: none;
+}
+#contact-form .contact-form .btn i {
+	margin-right: 5px;
+}
+#contact-form .contact-form label {
+	color: #bbb;
+	font-weight: normal;
+}
+#contact-form .contact-form textarea {
+	resize: vertical;
+}
+#contact-form .hint-text {
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 25px;
+	opacity: 0.8;
+}
+ */

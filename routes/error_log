@@ -1,0 +1,72 @@
+[08-Apr-2022 02:42:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[01-May-2022 22:38:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[02-May-2022 09:29:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/wheelshu/public_html/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/channels.php on line 14
+[05-May-2022 09:35:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Auth' not found in /home/wheelshu/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/web.php on line 18
+[24-May-2022 04:24:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/wheelshu/public_html/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/api.php on line 17
+[26-May-2022 15:14:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[19-Jun-2022 04:18:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[19-Jun-2022 15:16:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/wheelshu/public_html/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/channels.php on line 14
+[22-Jun-2022 23:03:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Auth' not found in /home/wheelshu/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/web.php on line 18
+[13-Jul-2022 18:26:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[09-Aug-2022 17:24:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/wheelshu/public_html/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/channels.php on line 14
+[13-Aug-2022 02:58:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Auth' not found in /home/wheelshu/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/web.php on line 18
+[05-Sep-2022 02:32:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[25-Sep-2022 16:56:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/wheelshu/public_html/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/channels.php on line 14
+[27-Sep-2022 04:35:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Auth' not found in /home/wheelshu/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/web.php on line 18
+[09-Nov-2022 15:16:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/wheelshu/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/console.php on line 16
+[11-Nov-2022 11:21:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Auth' not found in /home/wheelshu/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/web.php on line 18
+[04-Dec-2022 18:26:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/wheelshu/public_html/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/wheelshu/public_html/routes/channels.php on line 14

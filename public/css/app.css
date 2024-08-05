@@ -1,0 +1,160 @@
+.add-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white !important;
+  cursor: pointer;
+}
+
+.fa-1x-size {
+  font-size: large;
+}
+
+a:hover {
+  color: #167495;
+  text-decoration: none;
+}
+
+.preview-img {
+  width: 200px;
+  height: 155px;
+}
+
+.action-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline;
+  margin: 2px;
+}
+
+.btn-danger {
+  -webkit-appearance: none;
+}
+
+.view-license-div {
+  border: none;
+}
+
+.busy-btn {
+  border-color: transparent !important;
+}
+
+.select2-container .select2-selection--single {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 35px !important;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: #fff;
+  border: 1px solid #aaaaaa54;
+  border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #444;
+  line-height: 35px;
+}
+
+.preview-img-jobs {
+  height: 155px;
+}
+
+#location-map {
+  height: 100%;
+}
+
+.map-container {
+  overflow: hidden;
+  position: relative;
+  height: 60vh;
+  width: 105%;
+  margin-left: -5%;
+}
+
+.map-container #dispatcherMap {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.dispatcher-row-1 {
+  margin: 0 !important;
+}
+
+.dispatcher-row-2 {
+  margin: 0 !important;
+  max-height: 24.6em;
+  min-height: 24.6em;
+}
+
+.dispatcher-col-1 {
+  height: 85vh;
+  width: 103%;
+  background: #aadaff;
+}
+
+.card {
+  margin-bottom: 0;
+}
+
+.request-tabs-container {
+  height: 100%;
+}
+
+.accordion .card-header {
+  padding: 1%;
+  background: #1f95ce;
+}
+
+.card-header h2 {
+  font-size: 16px;
+  padding: 2%;
+  color: white;
+  cursor: pointer;
+}
+
+.collapse {
+  height: 33vh;
+  overflow-y: scroll;
+}
+
+.gmnoprint {
+  display: none;
+}
+
+.collapse::-webkit-scrollbar {
+  width: 5px;
+}
+
+.collapse::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.collapse::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.dipatcher-rightbar-icons {
+  color: #1f95ce;
+}
+
+.dipatcher-rightbar-list {
+  background-color: #aadaff14;
+  padding: 1%;
+}
+
+.tab-content {
+  overflow-y: scroll;
+  height: 90vh;
+}
+

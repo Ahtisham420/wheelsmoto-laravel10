@@ -1,0 +1,81 @@
+<?php
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Alerts Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain alert messages used by
+    | the controllers. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
+    'header_profile' => 'Profile',
+    'header_logout' => 'Logout',
+    'sidebar_dashboard' => 'Dashboard',
+    'sidebar_roles' => 'Roles',
+    'sidebar_roles_list' => 'Roles List',
+    'sidebar_roles_form' => 'Roles Form',
+    'sidebar_permission' => 'Permissions',
+    'sidebar_permission_list' => 'Permissions List',
+    'sidebar_permission_form' => 'Permissions Form',
+    'sidebar_users' => 'Users',
+    'sidebar_users_list' => 'Users List',
+    'sidebar_users_form' => 'User Form',
+    'sidebar_classification' => 'Classification',
+    'sidebar_types' => 'Types',
+    'sidebar_types_products' => 'Products Types',
+    'sidebar_types_offerings' => 'Offerings Types',
+    'sidebar_types_properties' => 'Property Types',
+    'sidebar_add_new_types' => 'Add New Type',
+    'sidebar_categories' => 'Categories',
+    'sidebar_categories_list' => 'Categories List',
+    'sidebar_categories_form' => 'Category Form',
+    'sidebar_notification' => 'Notification',
+    'sidebar_notification_list' => 'Notification List',
+    'sidebar_notification_form' => 'Notification',
+    'sidebar_brands' => 'Brands',
+    'sidebar_brands_list' => 'Brands List',
+    'sidebar_brands_form' => 'Brand Form',
+    'sidebar_coupons' => 'Coupons',
+    'sidebar_coupons_list' => 'Coupons List',
+    'sidebar_coupons_form' => 'Coupon Form',
+    'sidebar_products' => 'Products',
+    'sidebar_products_list' => 'Products List',
+    'sidebar_offerings_list' => 'Offering List',
+    'sidebar_products_form' => 'Product Form',
+    'sidebar_application' => 'Application',
+    'sidebar_homescreen' => 'Home Screen',
+    'footer_powered' => 'Powered by',
+    'sidebar_subscribers' => 'Subscribers',
+    'sidebar_subscribers_list' => 'Subscribers List',
+    'sidebar_logs' => 'Logs',
+    'sidebar_testimonial' => 'Testimonial',
+    'sidebar_careercv' => 'Career CV',
+    'sidebar_careers' => 'Careers',
+    'sidebar_careers_list' => 'Careers List',
+    'sidebar_careers_form' => 'Careers Form',
+    'classification' => 'Classification',
+    'sub_classification' => 'Sub Classification',
+    'sub_classifications' => 'Sub Classifications',
+    'all_sub_classfications' => 'All Sub Classifications',
+    'add_sub_classfication' => 'Add Sub Classification',
+    'types' => 'Types',
+    'add' => 'Add',
+    'edit' => 'Edit',
+    'name' => 'Name',
+    'black_feature_icon' => 'Black Feature Icon',
+    'white_feature_icon' => 'White Feature Icon',
+    'sidebar_website_settings' => 'Website Settings',
+    'sidebar_all_blog_posts' => 'All Blog Posts',
+    'sidebar_all_comments' => 'All Comments',
+    'sidebar_waiting_for_approval' => 'Waiting for approval',
+    'sidebar_blog' => 'Blog',
+    'sidebar_pages' => 'Pages',
+    'sidebar_all_pages' => 'Pages',
+    'sidebar_system_settings' => 'System Settings',
+    'sidebar_settings' => 'Settings',
+    'sidebar_promotions' => 'Promotions',
+];

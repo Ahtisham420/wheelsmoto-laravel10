@@ -1,0 +1,1238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*!*Top Bar*!*/
+/*.topbar {*/
+    /*background-color: #e4001b;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+/*}*/
+/*.topbar ul{*/
+    /*padding: 5px;*/
+    /*margin:0;*/
+/*}*/
+/*.topbar ul li{*/
+    /*display: inline-block;*/
+    /*list-style: none;*/
+    /**/
+/*}*/
+
+/*.topbar ul li a {*/
+    /*color:#fff;*/
+    /*text-decoration: none;*/
+    /*padding: 15px 15px;*/
+
+/*}*/
+/*.topbar ul li a:hover {*/
+    /*color:#000;*/
+    /*text-decoration: none;*/
+    /*padding: 15px 15px;*/
+
+/*}*/
+
+
+
+/* audi selling section*/
+.CarDetailSection{
+    margin-top: 40px;
+}
+.audimainimg{
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    overflow: hidden;
+}
+.audimainimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sideimg img{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+
+}
+.audimainimg p {
+    font-size: 18px;
+    font-weight: bold;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: -55px;
+    top: -12px;
+    color: white;
+    z-index: 1;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    background-color: #00a651;
+}
+.sharediv{
+    padding: 30px 0;
+}
+.hearshareicon i{
+    padding: 0 8px;
+    font-size: 24px;
+    color: #dee2e6;
+}
+.rating i{
+    font-size: 11px;
+    color: #00a651;
+}
+.laststar{
+    font-size: 24px;
+    color: #dee2e6!important;
+}
+.reviewsnumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00a651;
+}
+.reportcar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.reportcar i{
+    font-size: 14px;
+    padding: 0 5px;
+    color: #fbe400;
+
+}
+.cardescription h3{
+    font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.cardescription p{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00000046;
+}
+.techspecs{
+    margin-bottom: 20px;
+}
+.techspecs h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+
+}
+.techspecsheading img{
+    padding-right: 20px;
+}
+.techspecsheading{
+    font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.addiconcategor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Comments Section*/
+.commentSection{
+    margin-top: 40px;
+}
+.comments{
+    padding: 10px 15px;
+    background-color: #707070;;
+    font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.78;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.commentsmargin{
+    margin-top: 50px;
+}
+.clientRating i{
+    font-size: 14px;
+    color:#f5a105;
+}
+
+.laststarclientration{
+    font-size: 14px;
+    color: #dee2e6!important;
+}
+.clientimages img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0px !important;
+    object-fit: contain;
+}
+.clientRating p{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00000046;
+}
+
+.clientName h6{
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.clientName p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: black;
+}
+.carname h2{
+    font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.cardiv{
+
+}
+.carprice{
+    float: right;
+}
+.carprice p{
+    font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.carprice span{
+    font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dee2e6;
+}
+.carspecs p{
+    font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.carspecspric{
+    float: right;
+
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a651;
+}
+.purchasediv{
+    display: flex;
+    font-size: 16px;
+  color: #00a651;
+}
+.swapsectionicon{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+}
+.swapdivicon{
+    display: flex;
+    padding: 8px 10px;
+    background-color: #707070;
+    align-items: center;
+    justify-content: center;
+}
+.swaplabel{
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.saveprice{
+    padding: 4px 10px;
+    background-color: #00a651;
+    color: #fff;
+}
+.save{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.powerdiv{
+    padding: 10px 0!important;
+    margin-top: 20px;
+    background-color: #707070;
+    font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.soldby{
+    background-color: #f8f8f8;
+}
+.soldby p{
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.soldby h3{
+    font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: 0.61px;
+  text-align: left;
+  color: #1a1818;
+}
+.soldby h4{
+    font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: 0.61px;
+  text-align: left;
+  color: #1a1818;
+
+}
+.alignsolddiv{
+
+    padding: 15px 30px;
+}
+.soldbydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soldby h1{
+    font-size: 29px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+.borderdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00000024;
+    border-left: none;
+    border-right: none;
+}
+.sideborder{
+    border: 1px solid #00000024;
+    border-top: none;
+    border-bottom: none;
+    padding: 17px;
+}
+.sideborder h1{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gtprofile{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: 0.66px;
+  text-align: center;
+  color: #00a651;
+}
+.auctionSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url("../img/sumamrysectiondiv/background.png");
+    background-size: contain;
+}
+.summarysection hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.auctiondetailheading{
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+.auctiondetailheading i{
+    padding-right: 15px;
+    font-size: 17px;
+    color:#707070;
+}
+.subheadind{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1818;
+
+}
+.btnsdiv{
+    text-align: center;
+}
+.btnsdiv label{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}
+.prebidbtn{
+    width: 100%;
+    height: 45px;
+    border-radius: 0;
+    background-color: #707070;
+    color: #fff;
+    border: none;
+}
+.prebidbtn:focus{
+    border: none;
+}
+.livbidbtn{
+    background-color: #00a651;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    border: none;
+}
+.auctionSection .form-group label{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: -0.38px;
+    text-align: left;
+    color: #1a1818;
+}
+.auctionSection .form-group select{
+    border-radius: 0;
+    border: solid 0.5px #707070;
+    background-color: transparent;
+}
+
+.lastline{
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1a1818;
+
+}
+.lastline span{
+    color: #00a651;
+
+}
+
+
+
+.summarybillheading{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.summarybilldetail{
+    text-align: right;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    text-align: right;
+    color: #00a651;
+}
+.happydeal{
+    font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+}
+.leasenowbtn button{
+    margin-top: 20px;
+    border:none;
+
+    width: 327px;
+    height: 54px;
+  background-color: #00a651;
+  font-size: 25px;
+  font-weight: 600;
+
+  color: #ffffff;
+}
+
+/*tooglebutton*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color:  #00a651;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #00a651;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+.slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/* Online auction*/
+
+.onlineAuctions{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.slick-list{
+    padding-right: 90px!important;
+    padding-left: 0!important;
+
+}
+
+.americancardbody{
+    color: #1a1818;
+    font-size: 18px;
+    font-weight:bold;
+}
+.americancardbodyendday{
+    display: flex;
+    color: #707070;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.bidnowbtndiv{
+    display: flex;
+       align-items: flex-start;
+    justify-content: flex-end;
+}
+.bidnowbtn{
+    border:none;
+    background-color: #00a651;
+    color: #fff;
+}
+.becomrental{
+    margin-bottom: 20px;
+    width: 228px;
+    height: 55px;
+    background-color: #9a9494;
+    color: #fff;
+    border: none;
+
+}
+.swapdiv{
+    padding-top: 30px;
+   position:absolute;
+   right: 33%;
+}
+.registrationdropdown{
+    width: 385px;
+    height: 55px;
+    background-color: transparent;
+}
+.registrationdropdown a .dropdown-menu{
+    width: 385px;
+    height: 55px;
+    background-color: transparent;
+
+}
+.swapicondiv{
+    padding-right: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.swapheading{
+    font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.swapicon{
+    width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  position: relative;
+}
+.swapiconpic{
+    position: absolute;
+    top: 32%;
+    left: 32%;
+
+}
+.cardiscription{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #707070;
+}
+.rentalimagdiv{
+    min-height:100%;
+    background:url('../img/becomerental/876b849a-f5b2-4e79-b4be-1b2156d26302.png') rgba(0, 0, 0, 0.5);
+    background-size:cover;
+    background-blend-mode: multiply;
+
+}
+.headingsection{
+    margin-bottom: 40px;
+}
+.leasecarsection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Leasecarsectionheading{
+    font-size: 35px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.hrsection{
+    margin-top: 14px;
+
+}
+.petrolbutton{
+    background-color: transparent;
+    width: 164px;
+    height: 39px;
+    border: solid 0.3px #00a651;
+}
+.petrolbutton i{
+    padding-left: 80px;
+}
+.sliderdiv{
+    background: transparent;
+    padding-right: 0;
+   margin-left: 111px;
+    margin-right: 26px;
+}
+.sliderhr{
+    margin-top: 20px;
+}
+/* Card */
+.card{
+    border: transparent;
+}
+.card:hover{
+    box-shadow: 0 30px 99px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+
+.cardimage {
+    position: relative;
+    display: inline-block;
+    overflow:hidden;
+ }
+ .card-body{
+     padding: 0;
+ }
+ .cardimage p{
+    transform:rotate(47deg);
+   position: absolute;
+   right: -43px;
+    top: -12px;
+   color:white;
+   z-index:1;
+   margin:0;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 30px;
+   background-color: #00a651;
+ }
+
+.cardPrice{
+
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00a651;
+
+}
+.card-text{
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+
+}
+.cardescription{
+
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.viewalldeals{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a651;
+}
+.viewalldeals i{
+    color:#dee2e6;
+}
+/**/
+
+
+.blogcontainer{
+
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-bottom: 70px;
+}
+.blogdiv{
+    margin: 0;
+    margin-top: 10px!important;
+    margin-bottom: 30px!important;
+
+}
+.colpadding{
+    padding: 0!important;
+}
+
+.blogimg{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+footer{
+    background-color: #000;
+}
+.footer1{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.widget1 {
+    text-align: left;
+    color: #707070;
+
+}
+.footerlogo{
+    padding-bottom: 22px;
+    width: 240px;
+    height: 32;
+}
+.widget1 p{
+    font-size: 13px;
+}
+.socialmediaicongroup i{
+    font-size: 16px;
+    padding: 9px;
+    color: #fbe400;
+
+}
+.footerheading{
+    padding-bottom: 22px;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.description{
+    opacity: 0.48;
+    color: #fff;
+    text-align: left;
+}.description a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.playstorebtn{
+    width: 140px;
+    height: 30px;
+    opacity: 0.5;
+    border-radius: 2px;
+    border: solid 0.5px #ffffff;
+}
+.footerimgdiv{
+    padding: 0!important;
+}
+.footerseparater{
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #ffffff;
+}
+.absolutefooter{
+    padding: 13px 0  ;
+    font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: -0.31px;
+  text-align: left;
+  color: #f8f8f8;
+}
+.btn-store {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 160px;
+    height: auto;
+    border-radius: 2px;
+    border: solid 0.5px;
+    display: flex;
+    justify-content: center;
+    color: #fbe400;
+    background-color: transparent;
+    border-color: #dddddd !important;
+  }
+  .btn-store i{
+      font-size: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  .btn-label{
+      font-size: 10px;
+      font-weight: bold;
+  }
+
+
+  .btn-store .btn-label,
+  .btn-store .btn-caption {
+    display: block;
+    text-align: left;
+    line-height: 1;
+  }
+  .groupset{
+      display: block;
+  }
+  .appleicon{
+      font-size: 25px!important;
+      padding-right: 0px;
+  }
+
+  .btn-store .btn-caption {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+
+
+
+  /*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col1 {
+	display: block;
+    float:left;
+    margin-left: 0;
+
+}
+.col1:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_1_of_10 {
+	width: 10%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+
+
+
+
+
+
+
+/* toogle button css*/
+
+
+.switch {
+    margin-left: 9px;
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 25px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00a651;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0;
+    bottom: 2px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: #fff;
+  }
+  input:checked + .slider:before{
+      background-color: #00a651;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    left: -10px;
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 30px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* My form*/
+
+
+.myform{
+    margin-top: 20px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #F5F5F5;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 17px;
+    outline: 0;
+    max-width: 500px;
+     }
+     .tx-tfm{
+     text-transform:uppercase;
+     }
+     .mybtn{
+         padding-top:10px ;
+         padding-bottom:10px ;
+
+         background-color: #707070;
+        border-radius:50px;
+        color: #ffffff;
+     }
+
+     /* accordian*/
+
+
+     @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+     .card-header{
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1818;
+         background-color: transparent;
+         border: none;
+         padding: 0;
+     }
+     .card-header img{
+        padding-right: 20px;
+     }
+     .card-body{
+        padding: 1.25rem;
+     }
+     .accordion .card-header:after {
+        font-family: 'FontAwesome';
+        content: "\f068";
+        float: right;
+    }
+    .accordion .card-header.collapsed:after {
+        /* symbol for "collapsed" panels */
+        content: "\f067";
+    }
+
+
+
+    /* timer*/
+    .clock {
+        display: flex;
+        line-height: 1;
+
+        font-size: 40px;
+      }
+
+      .clock span {
+
+        display: block;
+        font-size: 20px;
+        color:#1a1818;;
+      }
+
+      #days {
+          text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 106px;
+        color: #00a651;
+      }
+      #hours {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 106px;
+        color: #00a651;
+      }
+      #minutes {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 106px;
+        color: #00a651;
+      }

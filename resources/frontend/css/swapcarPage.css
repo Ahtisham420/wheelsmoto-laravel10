@@ -1,0 +1,1050 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.headerbackground{
+    height: 90px;
+    background-color: #22ab4b;
+}
+.nav-link{
+    color: #fff;
+
+}
+.hr{
+
+    margin-top: 13px;
+    width: 1px;
+    height: 16px;
+    background-color: #fff;
+}
+.buttongroup{
+    padding-left: 5px;
+}
+
+.signinbtn{
+    background-color: transparent;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: transparent;
+
+
+}
+.signinbtn i{
+    padding: 5px;
+}
+.createadbtn{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    width: 165px;
+    height: 44px;
+    border: solid 1px #ffffff;
+}
+.moredropdown .dropdown-toggle::after{
+    display: none;
+
+}
+
+/*Top Bar*/
+/*.topbar {*/
+    /*background-color: #000;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: left!important;*/
+/*}*/
+/*.topbar ul{*/
+    /*padding: 5px;*/
+    /*margin:0;*/
+/*}*/
+/*.topbar ul li{*/
+    /*display: inline-block;*/
+    /*list-style: none;*/
+    /**/
+/*}*/
+
+/*.topbar ul li a {*/
+    /*color:#fff;*/
+    /*text-decoration: none;*/
+    /*padding: 15px 15px;*/
+
+/*}*/
+/*.topbar ul li a:hover {*/
+    /*color:#fff;*/
+    /*text-decoration: none;*/
+    /*padding: 15px 15px;*/
+
+/*}*/
+
+/*Tab DIv */
+
+.swapPageSection{
+    background: url(../img/swapPage/swapcarbackground.jpg) rgba(0, 0, 0, 0.78);
+    background-size: cover;
+    min-height: 100%;
+    background-blend-mode: multiply;
+}
+/* Heading Div*/
+.swapheadingswap-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+}
+.swapheading img{
+    padding-right: 20px;
+}
+.headinghr{
+    margin-top:6px!important;
+}
+.swapheadingrow{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.headinghr hr{
+    border-top: 1px solid rgba(140, 131, 131, 0.68);
+}
+.viewdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.avaliablecars{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #dee2e6;
+}
+.separater{
+    color: #707070;
+    padding: 0 10px;
+
+}
+.viewall{
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fbe400;
+}
+/*Tab heading*/
+.divtabs{
+    margin-bottom: 90px;
+}
+
+.divstab .nav{
+    width: 100%;
+}
+.divstab .nav-tabs .nav-item {
+    text-align: center;
+    margin-bottom: -1px;
+    width: 33.33%;
+    background-color: #f8f8f8;
+}
+.divstab .nav-tabs .nav-link.active {
+    border-radius: 0;
+    color: #707070;
+    border: none;
+}
+.divstab .nav-link{
+    color: #707070!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+.divstab .nav-link p{
+    margin: 0;
+}
+.tab-content{
+    background-color: #fff !important;
+}
+.firsttabheading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a651;
+}
+.swapinput div{
+    border: none;
+}
+.swapinput input{
+    border-radius: 0;
+
+}
+.registrationnumber label{
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #707070;
+}
+.gbswap{
+    border-radius: 0;
+    display: grid;
+    background-color: #fbe400;
+    color: #1A1818;
+    border: none;
+}
+.btn-update{
+    margin-top: 13px;
+    height: 53px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #00a651;
+    font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.mileage label{
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.35px;
+    text-align: left;
+    color: #707070;
+
+}
+.mileage input{
+    height: 53px;
+    border-radius:0 ;
+}
+.updatebtndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.matter{
+    margin-top: 10px;
+    margin-bottom: 54px;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.matter a{
+    color: #00a651;
+    text-decoration: none;
+}
+.swappageform label{
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+
+    color: #707070;
+}
+.swappageform .form-group select{
+    color:#00a651;
+    border-radius: 3px;
+  border: solid 1px #dee2e6;
+}
+.swappageform .form-group select option {
+    color:#00a651;
+    border-radius: 0;
+    border: solid 0.5px #707070;
+    background-color: transparent;
+}
+.offsetdescription p{
+    margin: 0;
+    font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.bodytype p{
+    font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+
+}
+.bodytype p span{
+    font-weight: normal;
+}
+.addphoto{
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.89;
+    letter-spacing: normal;
+
+    color: #00a651!important;
+}
+.imageborder{
+    padding: 30px;
+
+    border: dashed 0.5px #ced4da;
+}
+.imageborder img{
+    border: none;
+}
+.btn-back i{
+    padding-right: 15px;
+}
+.btn-back{
+    background: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.btn-back:focus{
+    box-shadow: none;
+}
+.btn-next{
+    color: #fff;
+    width: 120.4px;
+  height: 39.8px;
+  background-color: #00a651;
+}
+.nextbtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footernote p{
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.34px;
+    text-align: left;
+    color: #707070;
+
+}
+.footernote a{
+    text-decoration: none;
+    color: #00a651;
+
+}
+/* Pricing Tab*/
+.pricingsection{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 36px;
+}
+.card-header{
+    padding: 0;
+    background-color: transparent;
+}
+.card-header h3{
+    font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a1818;
+}
+.card-header p{
+    font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00a651;
+}
+.pricingsection .card-body{
+    padding: 0;
+}
+.carworth{
+    margin-top: 20px;
+    font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+
+}
+.pricingsection .carspecspric{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.summarysection hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.summaryheading{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1818;
+}
+.summaryheading i{
+    padding-right: 15px;
+    font-size: 17px;
+    color:#707070;
+}
+.summarybillheading{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+.summarybilldetail{
+    text-align: right;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    text-align: right;
+    color: #00a651;
+    cursor: pointer;
+
+}
+.pricingsection .cardimageswap-car img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.secondcar{
+    margin: 15px 0;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.dropbtn select{
+    border-radius: 0;
+    width: 100%;
+    border: solid 0.9px #707070!important;
+    background-color: transparent!important;
+    color: #707070!important;
+    font-size: 16px;
+
+}
+.dropbtn button:hover{
+    box-shadow: none!important;
+    border: solid 0.9px #707070!important;
+
+    background-color: transparent!important;
+    color: #707070!important;
+    font-size: 16px;
+
+}
+.dropbtn button:focus{
+    box-shadow: none!important;
+    border: solid 0.9px #707070!important;
+
+    background-color: transparent!important;
+    color: #707070!important;
+    font-size: 16px;
+
+}
+.carbrand{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+}
+.selectcarbrand  button{
+    border-radius: 0;
+    width: 100%;
+    border: solid 0.9px #707070!important;
+    background-color: transparent!important;
+    color: #707070!important;
+    font-size: 16px;
+    padding: 14px;
+
+}
+.selectcarbrand button:hover{
+    box-shadow: none!important;
+    border: solid 0.9px #707070!important;
+
+    background-color: transparent!important;
+    color: #707070!important;
+    font-size: 16px;
+
+}
+.selectcarbrand button:focus{
+    box-shadow: none!important;
+    border: solid 0.9px #707070!important;
+
+    background-color: transparent!important;
+    color: #707070!important;
+    font-size: 16px;
+
+}
+.carsearch{
+    margin: 10px 0;;
+}
+.carsearch a{
+    color:#00a651;
+    text-decoration: none;
+}
+.summarybilldetail button{
+    border-radius: 0;
+    width: 100%;
+    border: none!important;
+    background-color: transparent!important;
+    color: #00a651!important;
+    font-size: 16px;
+    padding: 0;
+    text-align: end;
+
+
+
+}
+.summarybilldetail .dropdown-toggle::after{
+    content: none;
+
+}
+.summarybilldetail button:hover{
+    box-shadow: none!important;
+    border: none!important;
+
+    background-color: transparent!important;
+    color: #00a651!important;
+    font-size: 16px;
+
+}
+.summarybilldetail button:focus{
+    box-shadow: none!important;
+    border: none!important;
+
+    background-color: transparent!important;
+    color: #00a651!important;
+    font-size: 16px;
+
+}
+.soldbydiv{
+
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+}
+.soldbydiv p{
+    padding-top: 15px;
+    font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.soldbydiv h6{
+
+    font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.06;
+  letter-spacing: 0.61px;
+  text-align: left;
+  color: #1a1818;
+}
+.messge{
+    display: flex;
+    align-items: center;
+}
+.btngrops {
+    margin-top: 20px;
+}
+/*Separater Line*/
+.separaterline{
+    position: relative;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+
+}
+.separaterline .image{
+    background-color: #fff;
+    z-index: 10;
+    position: absolute;
+    left: 45px;
+    top: 30%;
+}
+
+.separaterline div{
+
+    width: 1px;
+    height: 100%;
+    background-color: #e0e0e09e;
+}
+
+/* Side Card*/
+.car-card{
+    height: 22rem;
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+.cardimageswap-car {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+.cardimageswap-car  .new-car-img-top {
+    margin-top: 30px;
+    padding-right: 0!important;
+    border-right: 1px solid #70707077;
+}
+
+.divcard{
+    position: absolute;
+    bottom: 5px;
+    left: 30%;
+}
+.divcard p a {
+    text-decoration: underline;
+    font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.carname{
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1a1818;
+}
+.carspecs{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00a651;
+}
+
+.carspecspric{
+    float: left;
+
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.97;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00a651;
+}
+.saveprice{
+    padding: 4px 10px;
+    background-color: #00a651;
+    color: #fff;
+}
+.cardiv{
+    margin-top: 10px;
+}
+
+.carprice{
+    float: left;
+}
+.carprice p{
+    font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.carprice span{
+    font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dee2e6;
+}
+
+.saveprice{
+    padding: 4px 10px;
+    background-color: #00a651;
+    color: #fff;
+}
+.save{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sidecard{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #ced4da;
+    font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.subheadind{
+    font-size: 17px;
+    font-weight: bold;
+    color: #1a1818;
+
+}
+.btnsdiv{
+    text-align: center;
+}
+.btnsdiv label{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+}.prebidbtn{
+    width: 100%;
+    height: 45px;
+    border-radius: 0;
+    background-color: #707070;
+    color: #fff;
+    border: none;
+}
+.prebidbtn:focus{
+    border: none;
+}
+.livbidbtn{
+    background-color: #00a651;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    border: none;
+}
+.lastline{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1a1818;
+
+}
+.lastline span{
+    color: #00a651;
+
+}
+
+/*advertisementdiv */
+.advertisementdiv{
+
+    background: url(../img/advertisementdiv/cover.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.advertisementdivsection{
+    padding-top:40px ;
+    padding-bottom:40px ;
+}
+.advertisingheading{
+    font-size: 30px;
+    color:#1A1818;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.advertisingparagraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #707070;
+
+}
+.advertisementdiv label{
+    color: #1A1818;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.advertisementdiv input{
+    border: solid 1px #707070;
+     border-radius: 0;
+     background-color: transparent;
+}
+.advertisementdiv button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 55px;
+    background-color: #00a651;
+    color: #fff;
+    border: none;
+}
+.advertisementdivlink{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.advertisementdivlink a{
+    color: #00a651;
+    text-decoration: underline;
+}
+footer{
+    background-color: #000;
+}
+.footer1{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.widget1 {
+    text-align: left;
+    color: #707070;
+
+}
+.footerlogo{
+    padding-bottom: 22px;
+    width: 240px;
+    height: 32;
+}
+.widget1 p{
+    font-size: 13px;
+}
+.socialmediaicongroup i{
+    font-size: 21px;
+    padding: 9px;
+    color: #fbe400;
+
+}
+.footerheading{
+    padding-bottom: 22px;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.description{
+    opacity: 0.48;
+    color: #fff;
+    text-align: left;
+}.description a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.description p {
+    font-size: 13px;
+}
+.playstorebtn{
+    width: 140px;
+    height: 30px;
+    opacity: 0.5;
+    border-radius: 2px;
+    border: solid 0.5px #ffffff;
+}
+.footerimgdiv{
+    padding: 0!important;
+}
+.footerseparater{
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #ffffff;
+}
+.absolutefooter{
+    padding: 13px 0  ;
+    font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: -0.31px;
+  text-align: left;
+  color: #f8f8f8;
+}
+.btn-store {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 160px;
+    height: auto;
+    border-radius: 2px;
+    border: solid 0.5px;
+    display: flex;
+    justify-content: center;
+    color: #4caf50;
+    background-color: transparent;
+    border-color: #dddddd !important;
+  }
+  .btn-store i{
+      font-size: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  .btn-label{
+      font-size: 10px;
+      font-weight: bold;
+  }
+
+
+  .btn-store .btn-label,
+  .btn-store .btn-caption {
+    display: block;
+    text-align: left;
+    line-height: 1;
+  }
+  .groupset{
+      display: block;
+  }
+  .appleicon{
+      font-size: 25px!important;
+      padding-right: 0px;
+  }
+
+  .btn-store .btn-caption {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .left-carswap-section{
+      margin-top: 20;
+  }
+
+
+@media(max-width:480px){
+    .sold-by-footer-summary{
+        margin-left: 0!important;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+  /* Media Queries */
+  @media (max-width:768px){
+    .headinghr{
+        display: none;
+    }
+      .separaterline{
+        display: none;
+      }
+  }
+
+  @media (max-width:992px) {
+      .headinghr{
+          display: none;
+      }
+    .left-carswap-section{
+        margin-top: 0;
+
+    }
+
+    .view-all-cars{
+        position: static;
+
+    }
+
+
+
+    .mobile-heading{
+        display: flex;
+        color: #000!important;
+        padding: 10px;
+
+    }
+}
