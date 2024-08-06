@@ -1398,7 +1398,6 @@ $(".filter_btn").click(function(e){
                         // }
 
                         //  console.log(update);
-                        u="{{ route('user-dashboard', ['key' => 'edit', 'id' =>':id']) }}";
                         id=btoa(btoa(data.result[x]["id"]));
                         u=u.replace(':id',id);
                         var update="{{route('del_car',['id'=>':id'])}}";

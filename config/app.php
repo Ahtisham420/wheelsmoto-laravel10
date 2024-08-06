@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool) env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,6 +58,18 @@ return [
     'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL'),
+
+    'node_modules_path' => env('APP_NODE_MODULES_PATH', null),
+
+    'coure_ui_asset_url' => env('APP_COREUI_ASSET_URL', null),
+
+    'ui_asset_url' => env('APP_UI_ASSET_URL', null),
+
+    'app_timezone' => env('APP_TIMEZONE', "UTC"),
+
+    'app_strip_api_key' => env('STRIPE_API_KEY', ""),
+
+    'app_strip_secret_key' => env('STRIPE_SECRET_KEY', ""),
 
     /*
     |--------------------------------------------------------------------------
