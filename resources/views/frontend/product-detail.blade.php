@@ -61,9 +61,9 @@
                             @endif
                         </ol>
                     </div>
-                
 
-          
+
+
 
         </div>
 
@@ -83,7 +83,7 @@
 
                 </div>
 
-    
+
 
             </div>
 
@@ -137,7 +137,7 @@
                             <div class="item item-cursor">
                                 <div class="card ml-3 mb-3" style="border: 1px solid #bfbfbf75;">
                                     <a class="text-center" href="{{route('garage-detail',['id'=>base64_encode(base64_encode($car->id))])}}"><img class="card-img-top" src="{{asset('storage/app/public/'.$pi)}}" style="padding:10px;height: 150px;object-fit: cover!important;" alt="Card image cap"></a>
-                                
+
 
                                     <div class="pl-2 pb-2 pr-2 pt-2">
                                         <p class="productPrice m-0">{{$car->c_name}}</p>
@@ -280,9 +280,9 @@
             @endif
         </ol>
     </div>
-                
 
-          
+
+
 
         </div>
 
@@ -336,15 +336,15 @@
                         <br>
                         <p class="ml-3 mb-2">{{$car_d->created_at->diffForHumans()}}</p>
                     </div>
-                     
-                    
+
+
                     @if($car_d && $car_d->other_number && !empty(session("userLoggedIn")) && session("userLoggedIn") == true)
                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 ml-3"><label><b>Owner's Name</b></label> <i class="fa fa-user ml-1" aria-hidden="true"></i> <span class="ml-2"> {{$car_d->other_name}}  </span> </div>
                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 ml-3 mt-1"><label><b>Owner's Number</b></label> <i class="fa fa-phone ml-1" aria-hidden="true"></i> <span class="ml-2"> {{$car_d->other_number}}  </span> </div>
                    @else
-                   
+
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 ml-3 mt-1"><label><b>Owner's Number</b></label> <i class="fa fa-phone ml-1" aria-hidden="true"></i> <span class="ml-2"> {{$car_d->contact_number}}  </span> </div>
-                     
+
                     @endif
 
                   <!--   <i
@@ -490,7 +490,7 @@
                                             @endphp
                                             <div class="col-md-3 rounded mb-4">
                                                 <div class="card rounded h-100">
-                                                    <a href="{{ route('car-detail', ['id' => $car->slug]) }}">
+                                                    <a href="{{ $car->slug ? route('car-detail', ['id' =>$car->slug]) : '' }}">
                                                         <img src="{{ $pi }}" class="card-img-top" alt="{{ $car->title }}" style="height: 150px; object-fit: cover;">
                                                         <div class="card-body">
                                                             <p class="heart-icon HomeFilterHeart" data-id="{{ base64_encode($car->id) }}">
@@ -539,7 +539,7 @@
 
                             <div class="item item-cursor">
                                 <div class="card rounded mr-3 mb-3" style="border: 1px solid #bfbfbf75;">
-                                    <a class="text-center" href="{{route('car-detail',['id'=>$car->slug])}}"><img class="card-img-top" src="{{$pi}}" style="padding:10px;height: 150px;object-fit: cover!important;" alt="Card image cap"></a>
+                                    <a class="text-center"><img class="card-img-top" src="{{$pi}}" style="padding:10px;height: 150px;object-fit: cover!important;" alt="Card image cap"></a>
                                     @if(in_array($car->id,$user_s_id))
                                         @php
                                             $class="red";

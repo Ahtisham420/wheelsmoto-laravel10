@@ -12,7 +12,7 @@
                 @php $class="save_like00";
                 @endphp
             @endif
-            <div class="listing-item" id="listingItemContainer" onclick="window.location='{{route('car-detail',['id'=>$data->slug])}}'">
+            <div class="listing-item" id="listingItemContainer" onclick="window.location='{{ isset($data->slug) ? route('car-detail',['id'=>$data->slug]) : ''}}'">
                 <img
                     class="listing-image-icon"
                     alt=""
@@ -52,7 +52,7 @@
                             <div class="rating">PKR {{number_format($data->price)}}</div>
                             {{--                                <div class="night">/f</div>--}}
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
