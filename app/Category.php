@@ -75,7 +75,7 @@ class Category extends Model
         return $this->hasMany(Category::class);
     }
 
-    public function sluggable()
+    public function sluggable(): array
     {
         return [
             'slug' => [
