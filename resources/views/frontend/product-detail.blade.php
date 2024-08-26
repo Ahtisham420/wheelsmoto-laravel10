@@ -71,7 +71,7 @@
             <!-- <=======Saller Discription======> -->
             <div class="row mt-2 block-margin" >
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
-                    <h5 class="mt-2" style="color: #707070;font-size: 20px;">Seller description</h5>
+                    <h5 class="mt-2" style="color: #707070;font-size: 20px;">Owner description</h5>
                 </div>
                 <div class="row">
                     <img  @if(!empty($garage_d->user) && !empty($garage_d->user['avatar'])) src="{{$garage_d->user['avatar']}}" @else src="https://wheelshunt.com/resources\images\thunmnailsilder\profile.png"  @endif  class="ml-4" style="height:40px;width:40px" >
@@ -327,7 +327,7 @@
             <!-- <=======Saller Discription======> -->
             <div class="row mt-2 block-margin">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
-                    <h5 class="mt-2" style="color: #707070;font-size: 20px;">Seller description</h5>
+                    <h5 class="mt-2" style="color: #707070;font-size: 20px;">Owner description</h5>
                 </div>
                 <div class="row">
                     <img  @if(!empty($car_d->user) && !empty($car_d->user['avatar'])) src="{{$car_d->user['avatar']}}" @else src="https://wheelshunt.com/resources\images\thunmnailsilder\profile.png"  @endif  class="ml-4" style="height:40px;width:40px" >

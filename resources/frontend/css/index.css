@@ -1036,23 +1036,20 @@ button {
 .coockies-show {
     border-top: 1px solid #fff;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0;
-    width: 100%;
-    background-color: #000;
-    color: #fff;
+    width: 275px;
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    background-color: white;
+    color: grey;
     position: fixed;
-    bottom: 0;
+    bottom: 3%;
+    right: 2%;
     z-index: 1000;
-    display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -514px;
-
+    margin-left:  -514px;
 }
 
 .cookies-show-btn {
@@ -1068,14 +1065,14 @@ a {
 
 .cookies-show-btn button {
     margin-right: 12px;
-    width: 25%;
-    background-color: #BF0202;
+    background-color: #00c29f;
+    border: 2px solid #00c29f;
+    padding: 10px 15px;
     color: #fff;
     border: none;
     outline: none;
-    border-radius: 0;
-    max-width: 150px;
-    height: 90%;
+    width: 90px;
+    border-radius: 5px;
 }
 
 /*<=====product-details thunmbnail slider======>*/
@@ -1549,17 +1546,8 @@ button.owl-next {
 }
 
 .cookies-show-btn a {
-    margin-right: 12px;
-    color: #000 !important;
     background-color: #fff;
-    color: black;
-    width: 25%;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 150px;
-    height: 90%;
 }
 
 .select2-container--default .select2-selection--single {
@@ -1572,9 +1560,16 @@ button.owl-next {
 }
 
 .cookies-show-btn a:last-child {
-    background: #3a3a3c;
-    /* border: 1px solid #000;*/
-    color: #000;
+    padding: 10px 15px;
+    color: #00c29f;
+    border: none;
+    outline: none;
+    border: 2px solid #00c29f;
+    width: 90px;
+    border-radius: 5px;
+}
+.cookies-show-btn a:last-child:hover{
+    color: white;
 }
 
 .headerbackground {
