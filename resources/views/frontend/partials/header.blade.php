@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
           integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -166,14 +169,13 @@
                             </a>
                         </li>
                         <div style="border:2px solid #b8b8b8; padding: 10px 0;" ></div>
-                        <li><a href="{{route("my-advert")}}">Dashboard</a>
-                        </li>
-
-
+                        <li><a href="{{route("my-advert")}}">Dashboard</a></li>
+                        <div style="border:2px solid #b8b8b8; padding: 10px 0;" ></div>
                         <li><a href="{{route('user-logout')}}">Sign Out</a></li>
                     @else
                         <li><a href="{{route('user-login')}}">Sign in</a></li>
-                        <li><a class="btn-register" href="{{route('user-login',['id'=>'register'])}}">Register Now</a>
+                        <div style="border:2px solid #b8b8b8; padding: 10px 0;" ></div>
+                        <li><a href="{{route('user-login',['id'=>'register'])}}">Register Now</a>
                         </li>
                     @endif
                 </div>
@@ -188,16 +190,35 @@
                 <form class="form-cookie" action="{{route("add-cookie")}}" method="post">
                     @csrf
                     <div class="row coockies-show" id="div-cookie" style="display: none;">
-                        <div class="col-12 col-sm-6">
-                            <p>WheelsHunt uses cookies to improve visitor experience.</p>
+                        <div class="d-flex align-items-center justify-content-center col-12">
+                            <i class="fa-solid fa-cookie-bite" style="color: #00c29f; font-size: 25px; margin-right:4px"></i>
+                            <h5 style="color: #00c29f; margin:0;">Cookies Consent</h5>
                         </div>
-                        <div class="col-12 col-sm-6 cookies-show-btn"><input type="hidden" name="cookie_n" id="cookie"
+                        <div class="d-flex align-items-center px-2">
+                            <p>WheelsMoto use cookies to help you have a superior and more relevant browsing experience on the website.</p>
+                        </div>
+                        <div class="cookies-show-btn"><input type="hidden" name="cookie_n" id="cookie"
                                                                              value="{{time()}}">
                             <input type="hidden" value="submit" name="submit">
                             <button value="submit">Continue</button>
-                            <a class="cancel-cookies" style="color: #FFFFFF!important;">Cancel</a></div>
+                            <a class="cancel-cookies">Cancel</a></div>
                     </div>
                 </form>
+                <!-- <div class="wrapper">
+                    <header>
+                        <i class="bx bx-cookie"></i>
+                        <h2>Cookies Consent</h2>
+                    </header>
+
+                    <div class="data">
+                        <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="button" id="acceptBtn">Accept</button>
+                        <button class="button" id="declineBtn">Decline</button>
+                    </div>
+                </div> -->
             @endif
 
             <div class="modal fade" id="ShareModalCenter" tabindex="-1" role="dialog"
