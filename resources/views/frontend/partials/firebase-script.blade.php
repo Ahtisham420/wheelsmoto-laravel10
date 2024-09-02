@@ -1,14 +1,14 @@
 <!-- Firebase App (the core Firebase SDK) -->
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
 
 <!-- Firebase Analytics -->
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics-compat.js"></script>
 
 <!-- Firebase Storage -->
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-storage-compat.js"></script>
 
 <!-- Firebase Firestore -->
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore-compat.js"></script>
 
 <script>
   //   const firebaseConfig = {
@@ -98,7 +98,8 @@ const firebaseConfig = {
         var seconds = new Date().getTime() / 1000;
         var user_name="{{session('userDetails')->first_name}}" + "{{session('userDetails')->id}}";
         var path="/power/"+user_name+"/"+folder_type+seconds;
-        var storageRef = firebase.storage().ref();
+        var storage = firebase.storage();
+        var storageRef = storage.ref();
         var success = false;
         var iRef = storageRef.child(path);
         var uploadTask= iRef.put(file);
