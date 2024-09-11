@@ -53,7 +53,7 @@ class HomeController extends Controller
             }
         }
         if ($slider) {
-            $html = view('frontend.partials.featureList', compact('slider','user_s_id'))->render();
+            $html = view('frontend.partials.nearByList', compact('slider','user_s_id'))->render();
             $response = [
                 'code' => 200,
                 'data' => $html,

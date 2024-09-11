@@ -230,7 +230,7 @@
             <a href="{{route('index-front-filter',["query"=>"all"])}}"><button class="view-all-button">View All</button></a>
         </div>
     </div>
-    <div class="homes" id="featureListing">
+    <div class="homesNearby" id="featureListing">
 
     </div>
 </div>

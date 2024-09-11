@@ -634,7 +634,7 @@
     white-space: pre-wrap;
 }
 
-.homes {
+.homes, .homesNearby {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -740,10 +740,10 @@
       to right,
       #833ab4,#fd1d1d,#fcb045
     ); */
-    background: #f09433; 
-background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: #f09433;
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -764,7 +764,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     align-items: center;
     justify-content: center;
   }
-  
+
   .newsletter-cont {
     width: 360px;
     height: 40px;
@@ -772,13 +772,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     border-radius: 60px;
     overflow: hidden;
   }
-  
+
   .subscription {
     position: relative;
     width: 100%;
     height: 100%;
   }
-  
+
   .subscription .add-email{
     position: absolute;
     top: 0;
@@ -789,7 +789,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     outline: none;
     padding: 0 20px;
   }
-  
+
   .subscription .submit-email {
     position: absolute;
     top: 0;
@@ -807,7 +807,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     transition: width .35s ease-in-out,
       background .35s ease-in-out;
   }
-  
+
   .subscription.done .submit-email {
     width: calc(100% - 2px);
     background: #00c29f;
@@ -816,7 +816,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     width: calc(100% - 2px);
     background: red;
   }
-  
+
   .subscription .submit-email .before-submit,
   .subscription .submit-email .after-submit,
   .subscription .submit-email .already-submit {
@@ -830,7 +830,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     transition: visibility .35s ease-in-out,
       opacity .35s ease-in-out;
   }
-  
+
   .subscription.done .submit-email .before-submit,
   .subscription:not(.done) .submit-email .after-submit {
     visibility: hidden;
@@ -841,14 +841,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     visibility: hidden;
     opacity: 0;
   }
-  
+
   .subscription .submit-email .after-submit {
     transition-delay: .35s;
   }
   .subscription .submit-email .already-submit {
     transition-delay: .35s;
   }
-  
+
   .subscription:not(.done) .submit-email .before-submit,
   .subscription.done .submit-email .after-submit {
     visibility: visible;
@@ -4186,7 +4186,7 @@ td {
     .localhost-inc-all{
         margin-bottom: 5px;
     }
-    
+
 
     .compare-table {
         overflow-x: auto;

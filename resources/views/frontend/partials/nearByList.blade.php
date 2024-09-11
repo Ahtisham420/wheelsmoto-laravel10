@@ -1,4 +1,4 @@
-    <div class="homes">
+<div class="homesNearby">
     @if(isset($slider) && count($slider) > 0)
         @foreach($slider as $key=> $data)
             @php $p = json_decode($data->pic_url);
@@ -29,7 +29,7 @@
                     <div class="superhost">Superhost</div>
                 </div>
                 <img class="heart-icon" alt=""
-                    src="{{ config('app.ui_asset_url').'frontend/img/demoImages/hearticon.svg' }}"
+                     src="{{ config('app.ui_asset_url').'frontend/img/demoImages/hearticon.svg' }}"
                 />
 
                 <div class="item-details">
@@ -43,7 +43,7 @@
                         <div class="rating-cont">
                             <div class="rating">4.9</div>
                             <img class="star-icon" alt=""
-                                src="{{ config('app.ui_asset_url').'frontend/img/demoImages/star-icon.svg' }}"
+                                 src="{{ config('app.ui_asset_url').'frontend/img/demoImages/star-icon.svg' }}"
                             />
                         </div>
                     </div>
@@ -58,7 +58,7 @@
             </div>
         @endforeach
     @endif
-    </div>
-    <div class="show-more-button m-auto" id="show-more-button{{$key}}">
-        <div class="show-more-text"><button class="view-more-btn" data-loader-id="load-more-tile-loader-{{$key}}" onclick="loadMore(this,'{{$slider->nextPageUrl()}}','#show-more-button{{$key}}')"><span>Show more</span> <div class="loader m-auto" id="load-more-tile-loader-{{$key}}"></div></button></div>
-    </div>
+</div>
+<div class="show-more-button m-auto" id="show-more-button{{$key}}">
+    <div class="show-more-text"><button class="view-more-btn" data-loader-id="load-more-tile-loader-{{$key}}" onclick="loadMoreNearby(this,'{{$slider->nextPageUrl()}}','#show-more-button{{$key}}')"><span>Show more</span> <div class="loader m-auto" id="load-more-tile-loader-{{$key}}"></div></button></div>
+</div>
